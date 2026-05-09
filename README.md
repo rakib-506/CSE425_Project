@@ -47,17 +47,7 @@ What it does:
 - creates tokenized event sequences for Transformer-based modeling
 - saves processed arrays, vocabulary files, and plots under `outputs/`
 
-Main outputs:
-- `outputs/processed/train_sequences.npy`
-- `outputs/processed/val_sequences.npy`
-- `outputs/processed/test_sequences.npy`
-- `outputs/processed/train_tokens.npy`
-- `outputs/processed/val_tokens.npy`
-- `outputs/processed/test_tokens.npy`
-- `outputs/processed/vocab.json`
-- `outputs/plots/dataset_year_distribution.png`
-- `outputs/plots/duration_distribution.png`
-- `outputs/plots/sample_piano_roll.png`
+
 
 ### `01_task1_lstm_autoencoder.ipynb`
 
@@ -70,13 +60,9 @@ What it does:
 - generates new MIDI samples from the trained model
 - saves checkpoints, plots, generated MIDI files, and evaluation metrics
 
-Main outputs:
-- `outputs/task1/best_model.pth`
-- `outputs/task1/training_checkpoint.pth`
-- `outputs/task1/generated_midis/`
-- `outputs/task1/metrics.csv`
-- `outputs/plots/task1_loss_curve.png`
-- `outputs/plots/task1_reconstruction.png`
+Generated Midi_files_Link : https://drive.google.com/drive/folders/1_rRBDunOnOBrmAa5vC2YNGJmuvz4IY0W?usp=sharing
+
+
 
 ### `02_task2_vae.ipynb`
 
@@ -89,16 +75,7 @@ What it does:
 - performs interpolation and sample generation
 - compares Task 2 results against Task 1
 
-Main outputs:
-- `outputs/task2/best_model.pth`
-- `outputs/task2/training_checkpoint.pth`
-- `outputs/task2/generated_midis/`
-- `outputs/task2/metrics.csv`
-- `outputs/plots/task2_loss_curves.png`
-- `outputs/plots/task2_beta_annealing.png`
-- `outputs/plots/task2_latent_pca.png`
-- `outputs/plots/task2_interpolation.png`
-- `outputs/plots/task1_vs_task2_comparison.png`
+Generated Midi_files_Link : https://drive.google.com/drive/folders/11B-TJKlrdeD0YaGQkrIGTRYG0Z20QtQ8?usp=sharing
 
 ### `03_task3_transformer.ipynb`
 
@@ -112,15 +89,7 @@ What it does:
 - generates MIDI outputs from token predictions
 - compares the Transformer against earlier baselines
 
-Main outputs:
-- `outputs/task3/best_model.pth`
-- `outputs/task3/training_checkpoint.pth`
-- `outputs/task3/generated_midis/`
-- `outputs/task3/metrics.csv`
-- `outputs/plots/task3_loss_curve.png`
-- `outputs/plots/task3_perplexity_curve.png`
-- `outputs/plots/task3_attention_heatmap.png`
-- `outputs/plots/task3_full_comparison.png`
+Generated Midi_files_Link : https://drive.google.com/drive/folders/19XUHO8kZKtwb6oumTRijuL-bDsvHbTgU?usp=sharing
 
 ### `04_task4_rlhf.ipynb`
 
@@ -133,19 +102,7 @@ What it does:
 - compares model behavior before and after RLHF
 - generates final MIDI outputs and analysis plots
 
-Main outputs:
-- `outputs/task4/rl_tuned_model.pth`
-- `outputs/task4/rl_training_checkpoint.pth`
-- `outputs/task4/rl_training_log.csv`
-- `outputs/task4/survey_results.csv`
-- `outputs/task4/before_after_metrics.csv`
-- `outputs/task4/generated_midis/`
-- `outputs/plots/task4_pretrained_reward_dist.png`
-- `outputs/plots/task4_rl_reward_curve.png`
-- `outputs/plots/task4_reward_comparison.png`
-- `outputs/plots/task4_piano_roll_comparison.png`
-- `outputs/plots/task4_human_scores.png`
-- `outputs/plots/task4_radar_chart.png`
+Generated Midi_files_Link : https://drive.google.com/drive/folders/1GTP3lV3qN9J3YcOhcm-znAlQPt1KK5JG?usp=sharing
 
 ## Execution Order
 
@@ -227,3 +184,6 @@ This repository presents a full music-generation pipeline:
 - fine-tuning the Transformer with RLHF-inspired reward optimization
 
 It is suitable for demonstrating a progression from basic sequence autoencoding to modern token-based generation and reward-guided refinement.
+
+Presentation video link: https://drive.google.com/file/d/1CkEv4i0oDF7B7SUY9lHTEERUC-OpYS0_/view?usp=drive_link
+
